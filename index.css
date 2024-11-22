@@ -1,0 +1,153 @@
+/* Grundlegendes Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 80px; /* Damit der Header nichts überblendet */
+}
+
+/* Logo Styling */
+.logo img {
+    height: 70px; /* Anpassbare Größe */
+    width: auto; /* Erhält das Seitenverhältnis */
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center; /* Zentriert das Logo vertikal */
+    justify-content: space-between;
+    background-color: #003366;
+    font-size: larger;
+    position: fixed; /* Fixiert den Header oben */
+    top: 0; /* Abstand zur oberen Kante */
+    left: 0; /* Abstand zur linken Kante */
+    width: 100%; /* Der Header soll die gesamte Breite einnehmen */
+    z-index: 1000; /* Hält den Header über anderen Elementen */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Schatten für visuelle Tiefe */
+}
+
+
+header .logo {
+    font-size: 25px;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cta {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero-Sektion */
+.hero {
+    /*background: url('aviation.mp4') no-repeat center center/cover;*/
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Deckt den gesamten Hintergrund ab */
+    z-index: -1; /* Lässt das Video hinter dem Text liegen */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; /* Hebt den Text über das Video */
+}
+
+/* Hero-Sektion Text und Button */
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px; /* Abstand zwischen Überschrift und Beschreibung */
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px; /* Abstand zwischen Beschreibung und Button */
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hero .cta {
+    margin-top: 20px; /* Zusätzlicher Abstand um sicherzustellen, dass der Button getrennt bleibt */
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Technische Highlights */
+#highlights {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.geschichte h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-item h3 {
+    margin: 10px 0;
+}
+
+#logoPic {
+    width: 100px;
+}
+

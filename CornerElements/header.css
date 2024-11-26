@@ -1,0 +1,43 @@
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center; /* Zentriert das Logo vertikal */
+    justify-content: space-between;
+    background-color: #003366;
+    font-size: larger;
+    position: fixed; /* Fixiert den Header oben */
+    top: 0; /* Abstand zur oberen Kante */
+    left: 0; /* Abstand zur linken Kante */
+    width: 100%; /* Der Header soll die gesamte Breite einnehmen */
+    z-index: 1000; /* Hält den Header über anderen Elementen */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Schatten für visuelle Tiefe */
+}
+
+
+header .logo {
+    font-size: 25px;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cta {
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

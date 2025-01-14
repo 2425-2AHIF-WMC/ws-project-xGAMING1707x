@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +20,12 @@
     </div>
     <nav>
         <ul>
+            <li><a href="index.html">Start</a></li>
             <li><a href="history.html">Geschichte</a></li>
             <li><a href="types.html">Flugzeugtypen</a></li>
-            <li><a href="index.html#highlights">Technische Highlights</a></li>
         </ul>
     </nav>
-    <a href="mehr.html" class="cta">Erfahre mehr</a>
+    <a href="#" class="cta">Erfahre mehr</a>
 </header>
 
 <!-- Content -->
@@ -37,44 +37,172 @@
         <p>Von kleinen Fliegern bis hin zu enormen Meisterleistungen der Physik</p>
     </section>
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <section id="planes">
+        <h1 class="display-5">Kleinflugzeuge</h1>
+        <div id="types1Carousel" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#types1Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#types1Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#types1Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="res/150J.jpg" class="d-block w-100" alt="Cessna 150J">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cessna 150J</h5>
+                        <p>Zweisitziger Schulterdecker des Flugzeugherstellers Cessna mit starrem Dreibeinfahrwerk.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="res/152.jpg" class="d-block w-100" alt="Cessna 152">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cessna 152</h5>
+                        <p>Kleiner Bruder des 150J</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="res/172.jpg" class="d-block w-100" alt="Cessna 172">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cessna 172</h5>
+                        <p>Viersitziger Hochdecker mit modernem G100 Navigationssystem.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#types1Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#types1Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="res/150J.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Cessna 150J</h5>
-                    <p>Zweisitziger Schulterdecker des Flugzeugherstellers Cessna mit starrem Dreibeinfahrwerk.</p>
-                </div>
+
+        <h1 class="display-5">Passagiermaschinen</h1>
+        <div id="types2Carousel" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#types2Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#types2Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#types2Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-item">
-                <img src="res/172.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Cessna 172</h5>
-                    <p>Kleine Schwester des 150J</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="res/a320.webp" class="d-block w-100" alt="Airbus A320">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Airbus A320</h5>
+                        <p>Das erste mit FBW ausgestattete, mit Fokus auf Effizienz und Wirtschaftlichkeit, zweistrahlige Basismodell
+                        der A320-Familie.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <div class="carousel-item">
+                    <img src="res/b777.webp" class="d-block w-100" alt="Boeing 777">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boeing 777</h5>
+                        <p>Auch als "Triple Seven" bekannt, ist sie seit ihrem Erstflug 1994 ein technisches Meisterwerk und ein
+                            Rückgrat des globalen Luftverkehrs.</p>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="res/md11.webp" class="d-block w-100" alt="MD-11">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>McDonnell Douglas MD-11</h5>
+                        <p>Mit ihrem charakteristischen Dreistrahl-Design zeichnet sich die MD-11, die aus einer Weiterentwicklung
+                            der legendären DC-10 entstand als ein wahrer Oldtimer der Luftfahrt aus.</p>
+                    </div>
+                </div>
+
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#types2Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#types2Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+
+        <h1 class="display-5">Giganten</h1>
+        <div id="types3Carousel" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#types3Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#types3Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#types3Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="res/a380-2.webp" class="d-block w-100" alt="Airbus A380">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Airbus A380</h5>
+                        <p>Als größter Passagierjet der Welt hat er mit seinem
+                            ikonischen Doppeldeck ein neues Kapitel in der Geschichte der kommerziellen Luftfahrt geschrieben.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="res/beluga.jpg" class="d-block w-100" alt="Airbus A330-743L">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Airbus Beluga</h5>
+                        <p>Eigentlich als "A330-743L" bezeichnet, ist er seit seinem Erstflug 2018 ein WunderCargo-Transport
+                            im globalen Luftverkehr.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="res/747.jpg" class="d-block w-100" alt="Boeing 747">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boeing 747</h5>
+                        <p>Auch bekannt als "Jumbo-Jet" oder "Königin der Luftfahrt" ist die 4-strahlige Boeing-747 wohl eines der
+                        ikonischsten und bekanntesten Jets überhaupt.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#types3Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#types3Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h1 class="display-5">Kampfjets</h1>
+        <div id="types4Carousel" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#types4Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#types4Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="res/eurofighter.jpg" class="d-block w-100" alt="Eurofighter Typhoon">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Eurofighter Typhoon</h5>
+                        <p>Oft nur "Eurofighter" genannt, wird er von mehreren europäischen Luftstreitkräften, darunter 15 Mal
+                        vom österreichischen Bundesheer betrieben, um beispielsweise Luftpatrouillen durchzuführen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="res/f16.jpg" class="d-block w-100" alt="F-16">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="black-text">F-16 Fighting Falcon</h5>
+                        <p class="black-text">Oft "Viper" genannt, wurden seit 1976 über 4570 des einstrahligen Kampfjets für die amerikanische Air Force
+                        gebaut. Ebenfalls mit FBW ausgestattet.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#types4Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#types4Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
 
 </div>
 
@@ -96,7 +224,6 @@
                 <li><a href="history.html">Geschichte</a></li>
                 <li><a href="types.html">Flugzeugtypen</a></li>
                 <li><a href="index.html#highlights">Technische Highlights</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
             </ul>
         </div>
 
@@ -119,7 +246,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>© 2024 Fly High. Alle Rechte vorbehalten. | <a href="impressum.html">Impressum</a> | <a href="https://de.wikipedia.org/wiki/Datenschutzerkl%C3%A4rung">Datenschutzerklärung</a></p>
+        <p>© 2025 Fly High. Alle Rechte vorbehalten. | <a href="impressum.html">Impressum</a> | <a href="https://de.wikipedia.org/wiki/Datenschutzerkl%C3%A4rung">Datenschutzerklärung</a></p>
     </div>
 </footer>
 </body>

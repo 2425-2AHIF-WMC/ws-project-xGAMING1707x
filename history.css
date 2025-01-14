@@ -49,6 +49,11 @@ body {
     max-width: 800px;
 }
 
+.timeline-item:hover {
+    scale: 1.05;
+    transition: 1s scale;
+}
+
 .innovation {
     padding: 40px 20px;
     text-align: center;

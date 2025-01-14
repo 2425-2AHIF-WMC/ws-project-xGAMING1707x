@@ -1,0 +1,62 @@
+/* Grundlegendes Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 80px; /* Damit der Header nichts überblendet */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.impressum h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.impressum h2 {
+    margin-top: 30px;
+}
+
+.company-info, .contact-info, .responsible, .disclaimer {
+    margin-bottom: 30px;
+}
+
+.impressum p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.impressum a {
+    color: #ff6600;
+    text-decoration: none;
+}
